@@ -210,4 +210,4 @@ exec_always --no-startup-id killall -q polybar
 exec_always --no-startup-id killall -q dunst
 exec_always --no-startup-id killall -q picom
 exec_always --no-startup-id dunst
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec --no-startup-id polybar -c ~/.config/polybar/config.ini example
